@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * <a href="https://javadevcentral.com/apache-commons-fileutils-directory-operations">...</a>
  * and <a href="https://stackoverflow.com/questions/2534632/list-all-files-from-a-directory-recursively-with-java">...</a>
  * Look at "Dan's Solution" Stack
- * For the relativizing methodology I read about it in this write-up
+ * For the  relativizing methodology I read about it in this write-up
  * <a href="https://www.geeksforgeeks.org/path-relativize-method-in-java-with-examples/">...</a>
  *
  *****************/

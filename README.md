@@ -1,5 +1,5 @@
 ### CHAI S3 Data Sync
-NOTE: The signature of calling this has changed - the bucket is now read from the properties file in lieu of entering it into the command line
+NOTE: The signature of calling this has changed - the bucket is now read from the properties file in lieu of entering it into the command line. The properties file should be in a conf folder
 
 This is a compiled Jar and config file for uploading to Corral S3 MinIO Server/Bucket.
 It uses the following syntax<br/>
