@@ -83,7 +83,6 @@ public class DirectoryWalkCommons {
                         tmpName = outage.substring(outage.lastIndexOf("/") + 1);
                         //System.out.println(srcDir + "\r\n "  + outage + "\r\n " +tmpName);
                         returnDirectory = transferClient.transferData(bucketIn, srcDir, outage, tmpName, username, password);
-
                     }
                 }
                 System.out.println(returnDirectory);
