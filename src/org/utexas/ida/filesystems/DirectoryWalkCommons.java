@@ -45,7 +45,7 @@ public class DirectoryWalkCommons {
                 //Example /Users/porterba/Downloads/twdb-region-01/ of /Users/porterba/Downloads/twdb-region-01/content
                 //Check for Directory Parameter and assign boolean flag
                 if (args[0].length() == args[0].lastIndexOf("/") + 1) {
-                    System.out.println("True");
+                    System.out.println("Correctly Constructed Request for Directory Access");
                     directoryParameterEntry = args[0].substring(0, args[0].lastIndexOf("/"));
                 } else {
                     directoryParameterEntry = args[0];
@@ -85,7 +85,7 @@ public class DirectoryWalkCommons {
                         returnDirectory = transferClient.transferData(bucketIn, srcDir, outage, tmpName, username, password);
                     }
                 }
-                System.out.println(returnDirectory);
+                System.out.println(returnDirectory + " Huh");
             } else {
                 System.out.println("You need to read how to set up the properties file correctly " +
                         "before running this tool. Please see the readme.md or contact bporter@csr.utexas.edu " +
