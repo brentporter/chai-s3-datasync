@@ -85,7 +85,7 @@ public class DirectoryWalkCommons {
                         returnDirectory = transferClient.transferData(bucketIn, srcDir, outage, tmpName, username, password);
                     }
                 }
-                System.out.println(returnDirectory + " Huh");
+                System.out.println(returnDirectory + " is the unique folder id for your uploaded data");
             } else {
                 System.out.println("You need to read how to set up the properties file correctly " +
                         "before running this tool. Please see the readme.md or contact bporter@csr.utexas.edu " +
